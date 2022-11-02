@@ -1,0 +1,62 @@
+* {
+          box-sizing: border-box;
+}
+
+.write-up {
+          color: white;
+          margin: 8% 0% 0% 8%;
+}
+
+.write-up h1 {
+          color: orangered;
+          font-size: 50px;
+          font-variant: small-caps;
+}
+
+.write-up p {
+          width: 25%;
+          font-size: 20px;
+}
+
+fieldset {
+          color: white;
+}
+
+.main {
+          position: absolute;
+          top: 5%;
+          left: 50%;
+          background: rgba(71, 75, 99, 0.30);
+          padding: 20px;
+          width: 40%;
+          height: 600px;
+          margin: auto;
+
+}
+
+form {
+          width: 102%;
+          height: 1000px;
+}
+
+legend {
+          color: white;
+          text-align: center;
+}
+
+input, select {
+          padding: 7px;
+          border: none;
+          border-radius: 12px;
+          width: 50%;
+}
+
+button {
+          width: 70%;
+          margin-left: 15%;
+          padding: 10px;
+          background: blue;
+          color: white;
+          border: none;
+          border-radius: 12px;
+}

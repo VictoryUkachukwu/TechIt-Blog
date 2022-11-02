@@ -1,0 +1,55 @@
+* {
+          box-sizing: border-box;
+}
+
+body {
+          background-image: linear-gradient(rgba(0, 0, 22, 0.952), rgba(0, 0, 22, 0.952)) , url('../../../connakblog/assests/images/Connak\ Logo.png');
+}
+
+.next {
+          position: absolute;
+          top: 0%;
+          left: 90%;
+          padding: 20px 60px 20px 60px;
+          background:rgba(0, 0, 0, 0);
+          text-align: right;
+          color: white;
+          cursor: pointer;
+}
+
+.drop-text {
+          position: absolute;
+          display: none;
+          margin-left: -50%;
+          background: rgba(88, 75, 71, 0.13);
+          padding: 12px;
+          text-align: center;
+          box-shadow: 12px 12px 8px black, 12px 13px 8px black;
+}
+
+.drop-text li {
+          display: block;
+          padding: 10px;
+}
+
+.drop-text li a:link, a:visited {
+          width: 100%;
+          text-decoration: none;
+          padding: 10px;
+          color: white;
+          text-shadow: 12px 12px 12px black, 10px 13px 8px black;
+}
+
+.drop-text li a:hover {
+          color: orangered;
+}
+
+.next:hover .drop-text {
+          display: block;
+}
+
+@media screen and (max-width: 1200px) {
+          .drop-text li {
+                    height: 30px;
+          }
+}

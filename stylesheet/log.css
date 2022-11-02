@@ -1,0 +1,77 @@
+.contain {
+          position: absolute;
+          left: 35%;
+          background:rgba(71, 75, 99, 0.30);
+          padding: 20px;
+          width: 28%;
+          height: 500px;
+          margin: 8% auto;
+          border: none;
+          border-radius: 20px;
+          box-shadow: 12px 13px 18px rgba(0, 0, 25, 0.527), -12px -13px 18px rgba(0, 0, 25, 0.527);
+          text-shadow: 12px 12px 12px black, 10px 13px 8px black;
+
+}
+
+.text {
+          margin-top: 14%;
+          text-align: center;
+          color: white;
+          letter-spacing: 5px;
+          word-spacing: 5px;
+          font-weight: lighter;
+}
+
+.text h2 span {
+          font-size: xx-large;
+          font-weight: bold;
+          font-style: oblique;
+          color: rgb(255, 113, 61);
+          animation-name: change;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+}
+
+@keyframes change {
+          0% {color: rgb(255, 113, 61);}
+          25% {color: orchid;}
+          50% {color: navy;}
+          75% {color: green;}
+          100% {color: white;}
+}
+
+.form {
+          margin-top: 15%;
+          margin-left: 16%;
+}
+
+ .form input#input {
+          border: 2px solid white;
+          border-radius: 12px;
+          padding: 8px 35px 8px 25px;
+          margin-bottom: 10%;
+          background:rgba(69, 69, 68, 0.30);
+          color: white;
+          text-align: center;
+          letter-spacing: 2px;
+ }
+
+ label {
+           color: white;
+ }
+
+ .diff {
+           font-size: 15px;
+ }
+
+#btn {
+          display: none;
+          margin-left: 30%;
+          padding: 8px 20px 8px 20px;
+          border: none;
+          border-radius: 5px;
+          background: orangered;
+          color: white;
+          box-shadow: 12px 13px 18px rgba(0, 0, 25, 0.527), -12px -13px 18px rgba(0, 0, 25, 0.527);
+
+}
